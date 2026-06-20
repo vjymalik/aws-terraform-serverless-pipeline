@@ -8,7 +8,7 @@ topic — is provisioned entirely through Terraform. No manual console steps.
 
 ## Architecture
 
-![Architecture Diagram] (arc/IaC-Serverless.png)
+![Architecture Diagram](arc/IaC-Serverless.png)
 
 A CSV uploaded to S3 triggers a Lambda function via an S3 event notification.
 Lambda reads and transforms the file, then writes rows to DynamoDB. If the
