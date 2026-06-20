@@ -1,0 +1,5 @@
+transaction_id,amount,category,timestamp
+txn_001,45.99,food,2026-06-01T10:00:00
+txn_002,120.00,electronics,2026-06-01T11:30:00
+txn_003,9.99,streaming,2026-06-01T12:00:00
+txn_004,75.00,transport,2026-06-01T14:15:00
