@@ -118,7 +118,7 @@ After inserting rows:
 ![Lambda function configuration](screenshots/lambda.png)
 
 **6. CloudWatch Logs** — a successful Lambda execution processing rows
-![CloudWatch logs of a successful run](screenshots/CW-logs.png)
+![CloudWatch logs of a successful run](screenshots/CW-log.png)
 
 **7. CloudWatch Alarm** — tripped into `ALARM` state after an intentionally
 malformed upload (`broken-transactions.csv`), proving the error path is wired
